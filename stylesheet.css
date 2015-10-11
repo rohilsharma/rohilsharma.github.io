@@ -1,18 +1,17 @@
-body {
+html {
   background-image:url(https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?q=80&fm=jpg&s=643e44f5177366de6cc914c8bcfbe064);
   align: middle
 }
 
 h1 {
   color: white;
-  font-size: 32px;
+  font-size: 56px;
   font-family: Verdana;
 }
 
 h3 {
   color: white;
+  font-family: Verdana;
 }
 
-p {
-  color: blue
-}
+
