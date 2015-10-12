@@ -71,6 +71,7 @@ div > p:nth-child(1) > a {
   margin-top:5px;
   margin-bottom:5px;
   border: yellow dashed;
+  color: yellow;
 }
 
 div > p:first-child > span:nth-child(2) {
@@ -80,11 +81,13 @@ div > p:first-child > span:nth-child(2) {
   margin-bottom:5px;
   border: yellow dashed;
   font-family:Cursive;
+  color: blue;
 }
 
 div > p:first-child > span:nth-child(3) {
   font-family:Cursive;
   font-size:28px;
+  color: orange;
   padding-left:500px;
   padding-top:5px;
   border: yellow dashed;
