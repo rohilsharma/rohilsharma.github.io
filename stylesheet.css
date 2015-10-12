@@ -49,7 +49,7 @@ h2 {
   color: white;
 }
 
-div > p:nth-child(2) {
+div > p:nth-child(3) {
   font-family: Cursive;
   font-size:28px;
 }
