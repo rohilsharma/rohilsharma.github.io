@@ -8,6 +8,10 @@ html {
   text-decoration:none;
 }
 
+.personalinfo:hover {
+  color: #ffff00;
+}
+
 table, th, td {
   color: white;
   padding: 20px 135px 0px 135px;
@@ -21,9 +25,7 @@ table, th, td {
   z-index:1;
 }
 
-table, th, td:hover {
-  color: #ffff00;
-}
+
 
 h1 {
   color: white;
