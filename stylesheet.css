@@ -5,7 +5,6 @@ html {
 
 .personalinfo {
   text-decoration:none;
-  position: fixed;
 }
 
 table, th, td {
@@ -17,6 +16,7 @@ table, th, td {
   border-collapse: collapse;
   border-spacing: 100px;
   margin-bottom: 112px;
+  position: fixed;
 }
 
 h1 {
