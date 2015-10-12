@@ -39,7 +39,7 @@ div {
   margin-left:50px;
 }
 
-p: nth-child (2) {
+body > p: nth-child (2) {
   font-family: Cursive;
 }
 
