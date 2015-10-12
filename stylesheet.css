@@ -44,7 +44,7 @@ div {
 }
 
 h2 {
-  text-align: center;
+  padding-right: -205px;
   font-size:48px;
   color: white;
 }
