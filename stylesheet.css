@@ -54,6 +54,10 @@ div > p:nth-child(3) {
   padding-left:500px;
 }
 
+div > p {
+  padding-left:500px;
+}
+
 
 
 
