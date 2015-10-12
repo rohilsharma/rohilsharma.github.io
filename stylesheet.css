@@ -46,6 +46,7 @@ h2 {
   text-align:center;
   font-size:48px;
   color: white;
+  background-color: #403837;
 }
 
 div > p:nth-child(2) {
