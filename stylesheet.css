@@ -36,14 +36,16 @@ h3 {
 
 h2 {
   text-align:center;
-
+  color:white;
+  font-size:48px;
 }
 
 div {
   margin-left:500px;
+  color: white;
 }
 
-p: nth-child (2) {
+div > p: nth-child (2) {
   font-family: Cursive;
 }
 
