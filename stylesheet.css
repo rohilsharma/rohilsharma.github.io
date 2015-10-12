@@ -74,7 +74,15 @@ div > p:nth-child(2) > a {
   border: yellow dashed;
 }
 
-div > p:nth-child(3) {
+div > span:nth-child(3) {
+  text-decoration: none;
+  color: white;
+  margin-top:5px;
+  margin-bottom:5px;
+  border: yellow dashed;
+}
+
+div > span:nth-child(4) {
   font-family: Cursive;
   font-size:28px;
   padding-left:500px;
