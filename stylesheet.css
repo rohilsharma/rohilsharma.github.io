@@ -16,7 +16,7 @@ table, th, td {
   border-collapse: collapse;
   border-spacing: 100px;
   margin-bottom: 112px;
-  position: fixed;
+  table-layout: fixed;
 }
 
 h1 {
