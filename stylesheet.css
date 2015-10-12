@@ -5,6 +5,7 @@ html {
 
 .personalinfo {
   text-decoration:none;
+  position: fixed;
 }
 
 table, th, td {
