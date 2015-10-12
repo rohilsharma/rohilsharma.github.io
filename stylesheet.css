@@ -16,7 +16,7 @@ h3 {
   position: clear;
 }
 
-.aboutprojectsresumecontact {
+table, th, td {
   color: white;
   padding: 50px;
   font-family: Verdana;
