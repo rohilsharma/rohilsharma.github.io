@@ -55,6 +55,7 @@ h2 {
 div > p {
   padding-left:500px;
   padding-bottom:0px;
+  text-decoration: none;
 }
 
 div > p:nth-child(3) {
