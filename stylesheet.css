@@ -66,7 +66,7 @@ div > p {
   border: yellow dashed;
 }
 
-div > p:nth-child(2) > a {
+div > p:nth-child(1) > a {
   text-decoration: none;
   color: white;
   margin-top:5px;
@@ -74,7 +74,7 @@ div > p:nth-child(2) > a {
   border: yellow dashed;
 }
 
-div > p:first-child > span:nth-child(3) {
+div > p:first-child > span:nth-child(2) {
   text-decoration: none;
   color: white;
   margin-top:5px;
@@ -83,7 +83,7 @@ div > p:first-child > span:nth-child(3) {
   font-family:Cursive;
 }
 
-div > p:first-child > span:nth-child(4) {
+div > p:first-child > span:nth-child(3) {
   font-family:Cursive;
   font-size:28px;
   padding-left:500px;
