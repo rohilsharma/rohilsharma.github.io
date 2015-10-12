@@ -21,7 +21,7 @@ table, th, td {
   z-index:1;
 }
 
-table.hover {
+table:hover {
   color: blue;
 }
 
