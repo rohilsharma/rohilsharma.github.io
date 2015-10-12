@@ -52,15 +52,18 @@ h2 {
   color: white;
 }
 
+div > p {
+  padding-left:500px;
+  padding-bottom:0px;
+}
+
 div > p:nth-child(3) {
   font-family: Cursive;
   font-size:28px;
   padding-left:500px;
+  padding-top:5px;
 }
 
-div > p {
-  padding-left:500px;
-}
 
 
 
