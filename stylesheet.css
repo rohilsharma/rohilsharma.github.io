@@ -45,7 +45,7 @@ div {
   color: white;
 }
 
-div > p: nth-child (2) {
+p:nth-child(2) {
   font-family: Cursive;
 }
 
