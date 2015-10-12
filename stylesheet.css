@@ -8,7 +8,7 @@ html {
   text-decoration:none;
 }
 
-table, tr, td {
+table, th, td {
   color: white;
   padding: 20px 135px 0px 135px;
   font-family: Verdana;
@@ -21,7 +21,7 @@ table, tr, td {
   z-index:1;
 }
 
-table, tr, td:hover {
+table, th, td:hover {
   color: blue;
 }
 
