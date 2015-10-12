@@ -44,10 +44,12 @@ h2 {
 div {
   margin-left:500px;
   color: white;
+  font-size:36px;
 }
 
 p:nth-child(2) {
   font-family: Cursive;
+  font-size:28px;
 }
 
 
