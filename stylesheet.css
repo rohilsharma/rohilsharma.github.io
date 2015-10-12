@@ -62,6 +62,7 @@ div > p {
   margin-bottom: 5px;
   margin-top: 5px;
   border: yellow dashed;
+  color:yellow;
 }
 
 div > p:nth-child(1) > a {
