@@ -35,19 +35,19 @@ h3 {
   margin-bottom:500px;
 }
 
-h2 {
-  text-align:center;
-  color:white;
-  font-size:48px;
-}
-
 div {
   margin-left:500px;
   color: white;
   font-size:36px;
+  background-color: #403837;
 }
 
-p:nth-child(2) {
+div > h2 {
+  text-align:center;
+  font-size:48px;
+}
+
+div > p:nth-child(2) {
   font-family: Cursive;
   font-size:28px;
 }
