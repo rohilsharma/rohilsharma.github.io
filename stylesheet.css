@@ -67,7 +67,6 @@ div > p {
 
 div > p:nth-child(1) > a {
   text-decoration: none;
-  color: white;
   margin-top:5px;
   margin-bottom:5px;
   border: yellow dashed;
@@ -76,7 +75,6 @@ div > p:nth-child(1) > a {
 
 div > p:first-child > span:nth-child(2) {
   text-decoration: none;
-  color: white;
   margin-top:5px;
   margin-bottom:5px;
   border: yellow dashed;
