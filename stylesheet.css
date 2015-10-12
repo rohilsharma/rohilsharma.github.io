@@ -23,7 +23,7 @@ table, th, td {
   margin-bottom: 112px;
   table-layout: fixed;
   z-index:1;
-  border: blue dashed;
+  border: yellow dashed;
 }
 
 h1 {
