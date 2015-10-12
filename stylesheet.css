@@ -33,13 +33,14 @@ h3 {
 
 h2 {
   text-align:center;
+  margin-bottom:500px;
 }
 
 div {
   margin-left:500px;
 }
 
-body > p: nth-child (2) {
+p: nth-child (2) {
   font-family: Cursive;
 }
 
