@@ -7,11 +7,17 @@ h1 {
   color: white;
   font-size: 56px;
   font-family: Verdana;
+  position: clear;
 }
 
 h3 {
   color: white;
   font-family: Verdana;
+  position: clear;
+}
+
+.aboutprojectsresumecontact {
+  position: inline;
 }
 
 
