@@ -3,17 +3,8 @@ html {
   background-size:100%;
 }
 
-h1 {
-  color: white;
-  font-size: 56px;
-  font-family: Verdana;
-  position: clear;
-}
-
-h3 {
-  color: white;
-  font-family: Verdana;
-  position: clear;
+.personalinfo {
+  text-decoration:none;
 }
 
 table, th, td {
@@ -27,8 +18,31 @@ table, th, td {
   margin-bottom: 112px;
 }
 
-.personalinfo {
-  text-decoration:none;
+h1 {
+  color: white;
+  font-size: 56px;
+  font-family: Verdana;
+  position: clear;
 }
+
+h3 {
+  color: white;
+  font-family: Verdana;
+  position: clear;
+}
+
+h2 {
+  text-align:center;
+}
+
+div {
+  margin-left:50px;
+}
+
+p: nth-child (2) {
+  font-family: Cursive;
+}
+
+
 
 
