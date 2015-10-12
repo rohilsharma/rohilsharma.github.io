@@ -24,6 +24,7 @@ table, th, td {
   display: inline-block;
   border-collapse: collapse;
   border-spacing: 100px;
+  margin-bottom: 500px;
 }
 
 
