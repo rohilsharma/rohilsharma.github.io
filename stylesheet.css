@@ -17,6 +17,7 @@ table, th, td {
   border-spacing: 100px;
   margin-bottom: 112px;
   table-layout: fixed;
+  z-index:1;
 }
 
 h1 {
