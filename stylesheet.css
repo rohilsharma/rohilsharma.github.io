@@ -22,7 +22,7 @@ table, th, td {
   font-family: Verdana;
   font-size: 20px;
   display: inline-block;
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 100px;
 }
 
