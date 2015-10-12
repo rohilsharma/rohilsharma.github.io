@@ -23,6 +23,8 @@ table, th, td {
   font-size: 20px;
   display: inline-block;
   padding: 20px;
+  border-collapse: separate;
+  border-spacing: 100px;
 }
 
 
