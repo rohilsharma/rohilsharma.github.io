@@ -14,7 +14,7 @@ html {
 
 table, th, td {
   color: white;
-  padding: 20px 135px 0px 135px;
+  padding: 20px 125px 0px 125px;
   font-family: Verdana;
   font-size: 20px;
   display: inline-block;
@@ -23,6 +23,7 @@ table, th, td {
   margin-bottom: 112px;
   table-layout: fixed;
   z-index:1;
+  border: blue dashed;
 }
 
 h1 {
