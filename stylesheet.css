@@ -23,7 +23,6 @@ table, th, td {
   margin-bottom: 112px;
   table-layout: fixed;
   z-index:1;
-  border: yellow dashed;
 }
 
 h1 {
@@ -31,7 +30,6 @@ h1 {
   font-size: 56px;
   font-family: Verdana;
   position: clear;
-  border: yellow dashed;
 }
 
 h3 {
@@ -39,21 +37,18 @@ h3 {
   font-family: Verdana;
   position: clear;
   margin-bottom:500px;
-  border: yellow dashed;
 }
 
 div {
   background-color: #555555;
   background-size:cover;
   font-family: Verdana;
-  border: yellow dashed;
 }
 
 h2 {
   margin-left: 400px;
   font-size:28px;
   color: white;
-  border: yellow dashed;
 }
 
 div > p {
@@ -61,7 +56,6 @@ div > p {
   padding-bottom:0px;
   margin-bottom: 5px;
   margin-top: 5px;
-  border: yellow dashed;
   color:yellow;
 }
 
@@ -69,7 +63,6 @@ div > p:nth-child(1) > a {
   text-decoration: none;
   margin-top:5px;
   margin-bottom:5px;
-  border: yellow dashed;
   color: yellow;
 }
 
@@ -77,7 +70,6 @@ div > p:first-child > span:nth-child(2) {
   text-decoration: none;
   margin-top:5px;
   margin-bottom:5px;
-  border: yellow dashed;
   font-family:Cursive;
   color: blue;
 }
@@ -88,7 +80,6 @@ div > p:first-child > span:nth-child(3) {
   color: orange;
   padding-left:500px;
   padding-top:5px;
-  border: yellow dashed;
 }
 
 
