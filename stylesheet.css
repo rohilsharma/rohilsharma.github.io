@@ -13,6 +13,7 @@ html {
 }
 
 table, th, td {
+  width: 100%;
   color: white;
   margin: 20px 130px 0px 125px;
   font-family: Verdana;
