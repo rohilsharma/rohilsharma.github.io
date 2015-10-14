@@ -63,7 +63,7 @@ div > p:nth-child(1) > a {
   text-decoration: none;
   margin-top:5px;
   margin-bottom:5px;
-  color: yellow;
+  color: green;
 }
 
 div > p:first-child > span:nth-child(2) {
