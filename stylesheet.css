@@ -56,30 +56,11 @@ div > p {
   padding-bottom:0px;
   margin-bottom: 5px;
   margin-top: 5px;
-  color:yellow;
+  color:white
 }
 
-div:nth-child(1) > a {
-  text-decoration: none;
-  margin-top:5px;
-  margin-bottom:5px;
-  color: green;
-}
-
-div:first-child > span:nth-child(2) {
-  text-decoration: none;
-  margin-top:5px;
-  margin-bottom:5px;
-  font-family:Cursive;
-  color: blue;
-}
-
-div:first-child > span:nth-child(3) {
-  font-family:Cursive;
-  font-size:28px;
-  color: orange;
-  padding-left:500px;
-  padding-top:5px;
+.nolinkpls {
+  text-decoration:none;
 }
 
 
