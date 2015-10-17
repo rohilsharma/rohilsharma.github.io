@@ -59,15 +59,15 @@ div > p {
   color:white
 }
 
-.nolinkpls {
+#nolinkpls {
   text-decoration:none;
 }
 
-#bigtexthere {
+.bigtexthere {
   font-size:28px;
 }
 
-.cursivefont {
+#cursivefont {
   font-family:Cursive;
 }
 
