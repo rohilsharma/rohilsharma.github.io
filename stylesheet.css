@@ -53,13 +53,12 @@ h2 {
 }
 
 div > p {
-  padding-left:200px;
+  padding-left:150px;
   padding-bottom:0px;
   margin-bottom: 5px;
-  margin-top: 5px;
+  margin-top: 3px;
   color: white;
   text-align: center;
-  border: yellow dashed;
 }
 
 #nolinkpls {
