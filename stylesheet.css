@@ -5,7 +5,7 @@ html {
 }
 
 table, td, tr {
-  color: yellow;
+  color: white;
   border: yellow dashed;
   position: center;
   cell-padding: 50%;
