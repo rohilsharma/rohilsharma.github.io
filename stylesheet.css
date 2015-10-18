@@ -13,7 +13,7 @@ html {
 }
 
 table, th, td {
-  display: inline-block;
+  display: inline;
   color: white;
   height: 50px;
   width: 130px;
