@@ -25,7 +25,7 @@ table, th, td {
   margin-bottom: 112px;
   table-layout: fixed;
   z-index:1;
-  
+  border: yellow dashed;
 }
 
 h1 {
