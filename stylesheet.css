@@ -55,6 +55,7 @@ h2 {
   padding-top: 30px;
   margin-bottom: 1px;
   background-color:#555555;
+  border: yellow dashed
 }
 
 div > p {
