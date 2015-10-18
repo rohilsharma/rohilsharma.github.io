@@ -16,9 +16,13 @@ table, td, tr {
 h1 {
   text-align: center;
   color: white;
+  font-family: Verdana;
+  font-size: 56em;
 }
 
 h3 {
   text-align: center;
   color: white;
+  font-family: Verdana;
+  font-size: 40em;
 }
