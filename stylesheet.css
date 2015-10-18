@@ -13,6 +13,10 @@ table, td, tr {
   text-align: center;
 }
 
+table, td, tr:hover {
+  color: #ffff00;
+}
+
 h1 {
   text-align: center;
   color: white;
