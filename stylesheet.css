@@ -3,3 +3,8 @@ html {
   background-size:100%;
   position:relative;
 }
+
+table, td, tr {
+  color: yellow;
+  border: yellow dashed;
+}
