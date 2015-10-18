@@ -20,7 +20,7 @@ table, th, td {
   margin: auto;
   font-family: Verdana;
   font-size: 20px;
-  border-collapse: collapse;
+  border-collapse: separate;
   border-spacing: 100px;
   margin-bottom: 112px;
   table-layout: fixed;
