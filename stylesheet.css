@@ -10,5 +10,5 @@ table, td, tr {
   font-size: 20px;
   border: yellow dashed;
   position: center;
-  cell-spacing: 1em;
+  cellpadding: 10em;
 }
