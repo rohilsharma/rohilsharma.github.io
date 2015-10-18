@@ -7,11 +7,13 @@ html {
 table, td, tr {
   color: white;
   font-family: Verdana;
-  font-size: 20px;
+  font-size: 24px;
   border: yellow dashed;
   position: center;
   text-align: center;
   margin-top: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .personalinfo:hover {
