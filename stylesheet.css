@@ -13,13 +13,13 @@ html {
 }
 
 table, th, td {
+  display: inline-block;
   color: white;
   height: 50px;
   width: 130px;
   margin: auto;
   font-family: Verdana;
   font-size: 20px;
-  display: inline-block;
   border-collapse: collapse;
   border-spacing: 100px;
   margin-bottom: 112px;
@@ -54,6 +54,7 @@ h2 {
   color: orange;
   padding-top: 30px;
   margin-bottom: 1px;
+  background-color:#555555;
 }
 
 div > p {
@@ -63,20 +64,24 @@ div > p {
   margin-top: 3px;
   color: white;
   text-align: center;
+    background-color:#555555;
 }
 
 #nolinkpls {
   text-decoration: none;
   color: white;
+    background-color:#555555;
 }
 
 .bigtexthere {
   font-size:28px;
   margin-bottom: 2px;
+    background-color:#555555;
 }
 
 #cursivefont {
   font-family:Cursive;
+    background-color:#555555;
 }
 
 #objectivestatement {
@@ -86,6 +91,7 @@ div > p {
   margin-bottom: 30px;
   text-align: left;
   margin-bottom: 60px;
+    background-color:#555555;
 }
 
 
