@@ -14,7 +14,9 @@ html {
 
 table, th, td {
   color: white;
-  margin: 20px 130px 0px 125px;
+  height: 50px;
+  width: 130px;
+  margin: auto;
   font-family: Verdana;
   font-size: 20px;
   display: inline-block;
@@ -23,6 +25,7 @@ table, th, td {
   margin-bottom: 112px;
   table-layout: fixed;
   z-index:1;
+  
 }
 
 h1 {
