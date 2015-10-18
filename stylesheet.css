@@ -12,7 +12,7 @@ table, td, tr {
   position: center;
   text-align: center;
   margin-top: 5px;
-  padding-collapse: collapse;
+  margin: auto;
 }
 
 .personalinfo:hover {
