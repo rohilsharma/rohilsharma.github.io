@@ -8,4 +8,5 @@ table, td, tr {
   color: yellow;
   border: yellow dashed;
   position: center;
+  cell-padding: 50%;
 }
