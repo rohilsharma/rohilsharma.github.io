@@ -12,7 +12,6 @@ table, td, tr {
   position: center;
   text-align: center;
   white-space: nowrap;
-  left-padding: 20px;
 }
 
 .personalinfo:hover {
