@@ -7,4 +7,5 @@ html {
 table, td, tr {
   color: yellow;
   border: yellow dashed;
+  position: center;
 }
