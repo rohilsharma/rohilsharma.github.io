@@ -11,6 +11,7 @@ table, td, tr {
   border: yellow dashed;
   position: center;
   text-align: center;
+  cellpadding:100%;
 }
 
 .personalinfo:hover {
