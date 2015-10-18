@@ -4,23 +4,15 @@ html {
   position:relative;
 }
 
-
-table, th, td {
-  display: inline;
+table, td, tr {
   color: white;
-  height: 50px;
-  width: 130px;
-  margin: auto;
   font-family: Verdana;
-  font-size: 20px;
-  border-collapse: separate;
-  border-spacing: 100px;
-  margin-bottom: 112px;
-  table-layout: fixed;
-  z-index:1;
+  font-size: 24px;
   border: yellow dashed;
+  position: center;
+  text-align: center;
+  border: 100%;
 }
-
 
 .personalinfo:hover {
   color: #ffff00;
