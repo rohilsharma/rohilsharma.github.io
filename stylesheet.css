@@ -23,6 +23,7 @@ h1 {
   color: white;
   font-family: Verdana;
   font-size: 5em;
+  position: clear;
 }
 
 h3 {
@@ -30,4 +31,5 @@ h3 {
   color: white;
   font-family: Verdana;
   font-size: 2em;
+  position: clear;
 }
