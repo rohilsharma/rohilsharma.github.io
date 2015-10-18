@@ -50,12 +50,13 @@ h2 {
   font-size:38px;
   color: orange;
   padding-top: 30px;
+  margin-bottom: 1px;
 }
 
 div > p {
-  padding-left:58px;
+  padding-left:56px;
   padding-bottom:0px;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   margin-top: 3px;
   color: white;
   text-align: center;
