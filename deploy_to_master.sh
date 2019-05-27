@@ -19,6 +19,8 @@ echo ""
 
 git checkout gh-pages
 git pull
+git commit -m $1
+git push
 #git push origin gh-pages --force
 
 git checkout master
