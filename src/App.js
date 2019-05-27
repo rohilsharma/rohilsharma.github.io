@@ -8,7 +8,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+<<<<<<< HEAD
           Edit <code>src/App.js</code> and save to reload. TESTV11
+=======
+          Edit <code>src/App.js</code> and save to reload. TESTV9
+>>>>>>> parent of 0df5d069... V10
         </p>
         <a
           className="App-link"

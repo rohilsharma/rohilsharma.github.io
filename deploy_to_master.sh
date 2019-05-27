@@ -17,8 +17,12 @@ echo ""
 
 git checkout gh-pages
 git pull
+<<<<<<< HEAD
 git commit -m $1
 git push
+=======
+#git push origin gh-pages --force
+>>>>>>> parent of 0df5d069... V10
 
 git checkout master
 git reset --hard gh-pages
