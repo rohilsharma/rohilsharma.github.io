@@ -19,8 +19,6 @@ git push -f origin master
 
 echo "master updated. Merging gh-pages into master"
 
-git checkout gh-pages
-git merge master
 git checkout master
 git merge gh-pages
 git push
