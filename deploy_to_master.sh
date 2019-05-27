@@ -11,10 +11,15 @@ git add .
 git commit -m $1
 git push 
 
+echo ""
 echo "Pushed development to remote. Resetting master now..."
+echo ""
+
+#npm run deploy
 
 git checkout gh-pages
-git push origin gh-pages --force
+git pull
+#git push origin gh-pages --force
 
 git checkout master
 git reset --hard gh-pages
