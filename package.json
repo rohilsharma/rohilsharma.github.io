@@ -5,11 +5,13 @@
   "homepage": "https://rohilsharma.github.io/",
   "dependencies": {
     "gh-pages": "^2.0.1",
+<<<<<<< HEAD
     "jquery": "^3.4.1",
     "prop-types": "^15.7.2",
+=======
+>>>>>>> parent of b47ed45d... Added in template files
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-ga": "^2.5.7",
     "react-scripts": "3.0.1"
   },
   "scripts": {
