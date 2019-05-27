@@ -13,9 +13,9 @@ git push
 
 echo "Pushed development to remote. Resetting master now..."
 
-#git checkout master
-#git reset --hard gh-pages
-#git push -f origin master
+git checkout master
+git reset --hard gh-pages
+git push -f origin master
 
 echo "master updated."
 
