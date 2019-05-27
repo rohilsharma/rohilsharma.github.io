@@ -14,7 +14,7 @@ git push
 echo "Pushed development to remote. Resetting master now..."
 
 git checkout gh-pages
-git push origin gh-pages force
+git push origin gh-pages --force
 
 git checkout master
 git reset --hard gh-pages
