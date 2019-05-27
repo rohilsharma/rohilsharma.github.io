@@ -7,7 +7,7 @@ fi
 
 npm run deploy
 
-git add build/*
+git add .
 git commit -m $1
 git push 
 
