@@ -13,14 +13,13 @@ git push
 
 echo "Pushed development to remote. Resetting master now..."
 
+git checkout gh-pages
+git push
+
 git checkout master
 git reset --hard gh-pages
 git push -f origin master
 
-echo "master updated. Merging gh-pages into master"
-
-git checkout master
-git merge gh-pages
-git push
+echo "master updated."
 
 git checkout development
