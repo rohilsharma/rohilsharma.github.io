@@ -4,21 +4,23 @@ class Resume extends Component {
   render() {
 
     if(this.props.data){
-      var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function(education){
-        return <div key={education.school}><h3>{education.school}</h3>
-        <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p>{education.description}</p></div>
-      })
-      var work = this.props.data.work.map(function(work){
-        return <div key={work.company}><h3>{work.company}</h3>
-            <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-            <p>{work.description}</p>
+        var imageLoc = "images/" + education.icon;
+        return <div key={education.school}>
+          <a href={education.link}><img src={imageLoc} alt="Education Image" style={{float:"left"}}/><h3>&nbsp;{education.school}</h3></a>
+          <p className="info">&nbsp;{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
         </div>
       })
-      var skills = this.props.data.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      var work = this.props.data.work.map(function(work){
+        var imageLoc = "images/" + work.icon;
+        return <div key={work.company}>
+            <span><a href={work.link}><img src={imageLoc} alt="Work Image" style={{float:"left"}}/><h3>&nbsp;{work.company}</h3></a></span>
+            <span>
+              <br />
+              <h2 className="info">&nbsp;{work.title}</h2>
+              <p className="info"><em className="date">{work.years}</em> <span>&bull;</span> <em>{work.location}</em></p>
+            </span>
+        </div>
       })
     }
 
@@ -39,39 +41,17 @@ class Resume extends Component {
          </div>
       </div>
 
-
       <div className="row work">
-
          <div className="three columns header-col">
             <h1><span>Work</span></h1>
          </div>
 
          <div className="nine columns main-col">
           {work}
-        </div>
-    </div>
-
-
-
-      <div className="row skill">
-
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
          </div>
-
-         <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
       </div>
-   </section>
+
+      </section>
     );
   }
 }
