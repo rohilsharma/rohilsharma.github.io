@@ -26,7 +26,7 @@ class Header extends Component {
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+            {/* <li><a className="smoothscroll" href="#portfolio">Works</a></li> */}
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
 
@@ -39,7 +39,7 @@ class Header extends Component {
             <hr />
             <div className="download">
                   <p>
-                     <a href={resumeDownload} target="_blank" className="button"><i className="fa fa-download"></i>View Resume</a>
+                     <a href={resumeDownload} target="_blank" className="button"><i className="fa fa-download"></i> View Resumé</a>
                   </p>
             </div>
             <ul className="social">
