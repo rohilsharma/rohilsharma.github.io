@@ -5,10 +5,6 @@ class Header extends Component {
 
     if(this.props.data){
       var name = this.props.data.name;
-      var occupation= this.props.data.occupation;
-      var description= this.props.data.description;
-      var city= this.props.data.address.city;
-      var state = this.props.data.address.state;
       var resumeDownload = this.props.data.resumedownload;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
@@ -39,7 +35,7 @@ class Header extends Component {
             <hr />
             <div className="download">
                   <p>
-                     <a href={resumeDownload} target="_blank" className="button"><i className="fa fa-download"></i> View Resumé</a>
+                     <a href={resumeDownload} target="_blank" rel="noopener noreferrer" className="button"><i className="fa fa-download"></i> View Resumé</a>
                   </p>
             </div>
             <ul className="social">

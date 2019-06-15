@@ -238,7 +238,7 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 25px; /*72px*/
    overflow: hidden;
 }
 
@@ -833,6 +833,28 @@ call-to-action .button {
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
+
+#contact .mailTo {
+   width: 15%; /*58.33333%;*/
+   padding-top: 6px;
+   margin: auto;
+   
+   text-align: center;
+}
+
+#contact .mailTo .button {
+   margin-top: 6px;
+   background: #444;
+   display: inline-block;
+}
+#contact .mailTo .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#contact .mailTo .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
 
 
 /* contact form */
