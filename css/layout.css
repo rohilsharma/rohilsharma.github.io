@@ -835,7 +835,7 @@ call-to-action .button {
 #contact .header-col { padding-top: 6px; }
 
 #contact .mailTo {
-   width: 15%; /*58.33333%;*/
+   width: 58.33333%; /*15%;*/
    padding-top: 6px;
    margin: auto;
    
@@ -846,16 +846,16 @@ call-to-action .button {
    margin-top: 6px;
    background: #444;
    display: inline-block;
+   margin: auto;
 }
 #contact .mailTo .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
 #contact .mailTo .button i {
-   margin-right: 15px;
+   margin: auto;
    font-size: 20px;
 }
-
 
 /* contact form */
 #contact form { margin-bottom: 30px; }
