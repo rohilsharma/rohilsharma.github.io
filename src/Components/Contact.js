@@ -9,8 +9,12 @@ class Contact extends Component {
 
     return (
       <section id="contact">
+
                   <div>
 	                  <p className="mailTo">
+
+                  		 {/* <img src="images/headshot.png" alt="Portrait" /> */}
+                  
 	                     <a href={email} target="_blank"  rel="noopener noreferrer" className="button"><i className="fa fa-envelope"></i> Get In Touch</a>
 	                  </p>
             	  </div>
@@ -18,13 +22,6 @@ class Contact extends Component {
             <div className="two columns header-col">
             </div>
             <div className="seven columns">
-
-                  {/* 
-						TODO: ADD IMAGE
-                  <img src="images/headshot.png" alt="Portrait" />
-
-                     */}
-
             </div>
 
          </div>
