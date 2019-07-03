@@ -11,10 +11,8 @@ class Contact extends Component {
       <section id="contact">
 
                   <div>
-	                  <p className="mailTo">
-
-                  		 {/* <img src="images/headshot.png" alt="Portrait" /> */}
-                  
+                      <img src="images/headshot.png" alt="Portrait" className="portrait"/>
+	                  <p className="mailTo">                  
 	                     <a href={email} target="_blank"  rel="noopener noreferrer" className="button"><i className="fa fa-envelope"></i> Get In Touch</a>
 	                  </p>
             	  </div>
