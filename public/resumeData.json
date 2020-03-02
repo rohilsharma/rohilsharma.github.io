@@ -47,7 +47,7 @@
     ],
     "work":[
       {
-        "company":"Qualcomm Technologies Inc.",
+        "company":"Qualcomm",
         "location": "San Diego, CA",
         "title":"Engineer",
         "years":"July 2019 - Present",
@@ -55,7 +55,7 @@
         "icon": "qualcomm.png"
       },
       {
-        "company":"Roofstock Inc.",
+        "company":"Roofstock",
         "location": "Oakland, CA",
         "title":"Software Engineering Intern",
         "years":"May - August 2018",
