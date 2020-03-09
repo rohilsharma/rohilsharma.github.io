@@ -1,20 +1,20 @@
 {
   "main": {
     "name":"Rohil Sharma",
-    "occupation":"new grad",
+    "occupation":"",
     "description":"",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "rohilsharma97@gmail.com",
-    "phone": "(765) 637 - 1737",
+    "bio":"",
+    "contactmessage":"",
+    "email": "rohil@rohilsharma.com",
+    "phone": "",
     "address":{
-      "street":"430 W Wood St",
-      "city":"West Lafayette",
-      "state":"IN",
-      "zip": "47906"
+      "street":"",
+      "city":"",
+      "state":"",
+      "zip": ""
     },
-    "website": "https://rohilsharma.github.io",
+    "website": "https://rohilsharma.com",
     "resumedownload":"Sharma_Rohil_Resume.pdf",
     "social":[
       {
@@ -67,43 +67,12 @@
         "location": "West Lafayette, IN",
         "title":"Undergraduate Research Assistant",
         "years":"May - December 2017",
-        "link": "https://engineering.purdue.edu/VIP/teams/cam2/index_html",
+        "link": "https://www.cam2project.net",
         "icon": "cam2.png"
       }
     ]
   },
   "portfolio":{
-    "projects": [
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
-      }
-    ]
+    "projects": []
   }
 }
