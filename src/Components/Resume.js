@@ -7,14 +7,14 @@ class Resume extends Component {
       var education = this.props.data.education.map(function(education){
         var imageLoc = "images/" + education.icon;
         return <div key={education.school}>
-          <a href={education.link} target="_blank"><img src={imageLoc} alt="Education Icon" style={{float:"left"}}/><h3>&nbsp;&nbsp;{education.school}<span className="info">&nbsp;&bull;&nbsp;{education.degree}</span></h3></a>
+          <a href={education.link} target="_blank" rel="noopener noreferrer"><img src={imageLoc} alt="Education Icon" style={{float:"left"}}/><h3>&nbsp;&nbsp;{education.school}<span className="info">&nbsp;&bull;&nbsp;{education.degree}</span></h3></a>
         </div>
       })
 
       var work = this.props.data.work.map(function(work){
         var imageLoc = "images/" + work.icon;
         return <div key={work.company}>
-            <span><a href={work.link} target="_blank"><img src={imageLoc} alt="Work Icon" style={{float:"left"}}/><h3>&nbsp;&nbsp;{work.company}</h3></a></span>
+            <span><a href={work.link} target="_blank" rel="noopener noreferrer"><img src={imageLoc} alt="Work Icon" style={{float:"left"}}/><h3>&nbsp;&nbsp;{work.company}</h3></a></span>
               <br />
               <h2 className="info">&nbsp;{work.title}&nbsp;<span>&bull;</span><span>{work.location}</span></h2>
 

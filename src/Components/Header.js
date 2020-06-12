@@ -7,7 +7,7 @@ class Header extends Component {
       var name = this.props.data.name;
       var resumeDownload = this.props.data.resumedownload;
       var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
+        return <li key={network.name}><a href={network.url} target="_blank" rel="noopener noreferrer"><i className={network.className}></i></a></li>
       })
     }
 
