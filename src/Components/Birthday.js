@@ -39,14 +39,14 @@ const my_photos = [
     height: 4
   },
   {
-    src: photo_base_path + '5.JPG',
-    width: 133,
-    height: 100
-  },
-  {
     src: photo_base_path + '6.JPG',
     width: 4,
     height: 3
+  },
+  {
+    src: photo_base_path + '5.JPG',
+    width: 133,
+    height: 100
   }
 ]
 
